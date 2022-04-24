@@ -29,8 +29,19 @@ public class Joke {
 		this.published = published;
 	}
 
+	public Joke(long id, String title, String description, boolean published) {
+		this.id = id;
+		this.title = title;
+		this.description = description;
+		this.published = published;
+	}
+
 	public long getId() {
 		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public String getTitle() {

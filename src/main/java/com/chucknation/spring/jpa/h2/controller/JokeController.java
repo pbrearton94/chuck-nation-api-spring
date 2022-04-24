@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api")
-public class JokeTutorial {
+public class JokeController {
 
 	@Autowired
 	JokeRepository jokeRepository;

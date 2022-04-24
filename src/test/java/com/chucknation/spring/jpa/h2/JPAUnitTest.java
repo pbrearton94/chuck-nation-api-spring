@@ -80,6 +80,7 @@ public class JPAUnitTest {
         entityManager.persist(joke3);
         Joke updatedJoke = new Joke("updated joke#2", "updated desc#2", false);
         Joke joke = repository.findById(joke2.getId()).get();
+
         joke.setTitle(updatedJoke.getTitle());
         joke.setDescription(updatedJoke.getDescription());
         joke.setPublished(updatedJoke.isPublished());
