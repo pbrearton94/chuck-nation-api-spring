@@ -2,9 +2,9 @@ package com.bezkoder.spring.jpa.h2.repository;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.chucknation.spring.jpa.h2.model.Joke;
 
-import com.bezkoder.spring.jpa.h2.model.Joke;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JokeRepository extends JpaRepository<Joke, Long> {
   List<Joke> findByPublished(boolean published);
