@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.h2.repository;
+package com.chucknation.spring.jpa.h2.repository;
 
 import java.util.List;
 

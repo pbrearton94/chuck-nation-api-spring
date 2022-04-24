@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.h2.model;
+package com.chucknation.spring.jpa.h2.model;
 
 import javax.persistence.*;
 

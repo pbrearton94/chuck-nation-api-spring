@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.h2.controller;
+package com.chucknation.spring.jpa.h2.controller;
 
 import java.util.ArrayList;
 import java.util.List;
